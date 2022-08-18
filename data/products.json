@@ -1,0 +1,182 @@
+[
+    {
+        "id":1,
+        "picture":{
+            "src":"weekndVinyl.png",
+            "alt":"Weeknd Vinyl"
+        },
+        "name":"B.Behind the Madness",
+        "idArtist":3,
+        "idCat":2,
+        "delivery":false,
+        "price":{
+            "priceNow":41,
+            "priceOld":"50.90"
+        }
+    },
+    {
+        "id":2,
+        "picture":{
+            "src":"kissVinyl.png",
+            "alt":"Kiss Vinyl"
+        },
+        "name":"Destroyer (Resurrected)",
+        "idArtist":2,
+        "idCat":1,
+        "delivery":false,
+        "price":{
+            "priceNow":24.90,
+            "priceOld":"30.90"
+        }
+    },
+    {
+        "id":3,
+        "picture":{
+            "src":"weekndVinylBallons.png",
+            "alt":"Weeknd Vinyl Ballons"
+        },
+        "name":"House Of Balloons",
+        "idArtist":3,
+        "idCat":2,
+        "delivery":true,
+        "price":{
+            "priceNow":40,
+            "priceOld":null
+        }
+    },
+    {
+        "id":4,
+        "picture":{
+            "src":"coldplayVinyl.png",
+            "alt":"Coldplay Vinyl"
+        },
+        "name":"Parachutes",
+        "idArtist":5,
+        "idCat":1,
+        "delivery":false,
+        "price":{
+            "priceNow":54.90,
+            "priceOld":"69.90"
+        }
+    },
+    {
+        "id":5,
+        "picture":{
+            "src":"bucKesidiVinylA.png",
+            "alt":"Buc Kesidi A Vinyl"
+        },
+        "name":"Euforija",
+        "idArtist":4,
+        "idCat":2,
+        "delivery":true,
+        "price":{
+            "priceNow":42,
+            "priceOld":null
+        }
+    },
+    {
+        "id":6,
+        "picture":{
+            "src":"zeppelinVinyl.png",
+            "alt":"Led Zeppelin Vinyl"
+        },
+        "name":"Led Zeppelin II",
+        "idArtist":1,
+        "idCat":1,
+        "delivery":true,
+        "price":{
+            "priceNow":92,
+            "priceOld":"79.50"
+        }
+    },
+    {
+        "id":7,
+        "picture":{
+            "src":"kissVinylBlack.png",
+            "alt":"Kiss Vinyl Black"
+        },
+        "name":"Dressed to Kill",
+        "idArtist":2,
+        "idCat":1,
+        "delivery":false,
+        "price":{
+            "priceNow":72,
+            "priceOld":null
+        }
+    },
+    {
+        "id":8,
+        "picture":{
+            "src":"zeppelinVinylWhite.png",
+            "alt":"Led Zeppelin Vinyl White"
+        },
+        "name":"Houses Of The Holy",
+        "idArtist":1,
+        "idCat":1,
+        "delivery":true,
+        "price":{
+            "priceNow":72,
+            "priceOld":"68.70"
+        }
+    },
+    {
+        "id":9,
+        "picture":{
+            "src":"weekndVinylAfter.png",
+            "alt":"Weeknd Vinyl After Hours"
+        },
+        "name":"After Hours",
+        "idArtist":3,
+        "idCat":2,
+        "delivery":true,
+        "price":{
+            "priceNow":55,
+            "priceOld":"65"
+        }
+    },
+    {
+        "id":10,
+        "picture":{
+            "src":"weekndVinylStarboy.png",
+            "alt":"Weeknd Vinyl Starboy"
+        },
+        "name":"Starboy",
+        "idArtist":3,
+        "idCat":2,
+        "delivery":true,
+        "price":{
+            "priceNow":32,
+            "priceOld":"40.50"
+        }
+    },
+    {
+        "id":11,
+        "picture":{
+            "src":"coldplayVinylBlack.png",
+            "alt":"Coldplay Vinyl Black"
+        },
+        "name":"X&Y",
+        "idArtist":5,
+        "idCat":1,
+        "delivery":false,
+        "price":{
+            "priceNow":60,
+            "priceOld":"80"
+        }
+    },
+    {
+        "id":12,
+        "picture":{
+            "src":"bucKesidiVinylB.png",
+            "alt":"Buc Kesidi B Vinyl"
+        },
+        "name":"Euforija",
+        "idArtist":4,
+        "idCat":2,
+        "delivery":true,
+        "price":{
+            "priceNow":42,
+            "priceOld":null
+        }
+    }
+]

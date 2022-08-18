@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+	<channel>
+			<title>New vinyls out now</title>
+			<link> https://vinylrecords1shop.netlify.app/shop.html#shop </link>
+			<description> We just got new albums, come check them out! </description>
+		<item>
+			<title>New location?</title>
+			<link> https://vinylrecords1shop.netlify.app/index.html </link>
+			<description> We might open in a new town sooner then you think - keep in touch. </description>
+		</item>
+	</channel>
+</rss>

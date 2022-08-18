@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="description" content="Visit our online shop, and come get your vinyls.">
+	<meta name="keywords" content="Vinyl Records-come check our vinyls out.">
+	<meta name="author" content="Marija Vučićević">
+	<link rel="shortcut icon" href="img/favIcon.png" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Vinyl Records</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>	
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="css/all.min.css" rel="stylesheet" />
+	<link href="css/style.css" rel="stylesheet" />
+</head>
+<body> 
+	<div class="container">
+		<div class="placeholder">
+			<div class="parallax-window" data-parallax="scroll" data-image-src="img/bgImage.jpg">
+				<div class="tm-header">
+					<div class="row tm-header-inner">
+						<div class="col-md-6 col-12">
+							<div class="tm-site-text-box">
+								<a href="index.html"><h1 class="tm-site-title">Vinyl Records</h1></a>
+								<h6 class="tm-site-description">shop new/old vinyls now</h6>
+							</div>
+						</div>
+						<nav class="col-md-6 col-12 tm-nav">
+							<!-- meni -->
+							<ul class="tm-nav-ul col-12" id="menu">
+							</ul>
+							<!-- kraj menija -->
+						</nav>	
+					</div>
+				</div>
+			</div>
+		</div>
+		<main>
+			<header class="row tm-welcome-section">
+				<h2 class="col-12 text-center tm-section-title">- Welcome to our online shop -</h2>
+				<p class="col-12 text-center">This is a place for all vintage music lovers that are in a need for a new, fresh, but 
+					mostly used vinyls. Vintage is a new era - as we like to say.
+				</p>
+			</header>
+			<div class="tm-container-inner tm-history">
+				<div class="row">
+					<div class="col-12">
+						<div class="tm-history-inner">
+							<img src="img/about-06.jpg" alt="Image" class="img-fluid tm-history-img" />
+							<div class="tm-history-text"> 
+								<h3 class="tm-history-title text-dark">History of our shop? Here since 1987. </h3>
+								<p class="tm-mb-p">Our shop goes back in time, since the year when we were established.
+									Since that year, so much has changed, but most importantly our quality hasn't. We still have the most valuable 
+									and most beautiful vinyls. Did we picked your interest yet?
+								</p>
+							</div>
+						</div>	
+					</div>
+				</div>
+			</div>
+			<div class="tm-container-inner tm-features">
+				<div class="row" id="divIcons">
+					<div class="col-lg-4">
+						<div class="tm-feature">
+							<img src="img/iconBlack.jpg" alt="Black Vinyl Icon">
+							<p>We are well known as a shop who loves old vintage music that brings us in the good old days right away. If you</p>
+							<p id="textFade"> find it interesting as we do, you can check it out in our shop section. </p>
+							<p id="showText" class="tm-btn tm-btn-success">Read More</p>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="tm-feature">
+							<img src="img/iconWhite.jpg" alt="White Vinyl Icon">
+							<p>We have a variety of options to choose from, if you're into old music-we got you. If you're into new music-we got you too. For more - click below for a quick online shop view.</p>
+							<a href="shop.html#shop" class="tm-btn tm-btn-success">Shop now</a>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="tm-feature">
+							<img src="img/iconBlack.jpg" alt="Black Vinyl Icon Two">
+							<p>Our most important thing is our customers, their feedback keeps our shop going - online, as well as</p>
+							<p id="textFade2"> at our address. More about our location click <a href="#address" class="font-weight-bold">here</a>.</p>
+							<p id="showText2"class="tm-btn tm-btn-success">Read More</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="tm-container-inner tm-featured-image">
+				<div class="row">
+					<div class="col-12">
+						<div class="placeholder-2">
+							<div class="parallax-window-2" data-parallax="scroll" data-image-src="img/bgImageTwo.jpg"></div>		
+						</div>
+					</div>
+				</div>
+			</div>
+			<header class="row tm-welcome-section" id="contact">
+				<h2 class="col-12 text-center tm-section-title">Contact Page</h2>
+				<p class="col-12 text-center">We care about your opinion.</p>
+			</header>
+
+			<div class="tm-container-inner-2 tm-contact-section">
+				<div class="row">
+					<div class="col-md-6" id="con">
+						<div class="tm-contact-form">
+					        <div class="form-group">
+					          <input type="text" name="name" id="nameInput" class="form-control" placeholder="First Name"/>
+							  <span id="errorFirstName"></span>
+					        </div>
+							<div class="form-group">
+								<input type="text" name="name" id="lastNameInput" class="form-control" placeholder="Last Name"/>
+								<span id="errorLastName"></span>
+							  </div>
+					        <div class="form-group">
+					          <input type="email" name="email" class="form-control" id="emailInput" placeholder="Email"/>
+							  <span id="errorEmail"></span>
+					        </div>
+					        <div class="form-group">
+					          <textarea rows="5" name="message" class="form-control" id="messageInput" placeholder="Message"></textarea>
+							  <span id="errorMsg"></span>
+							  <p id="done"></p>
+					        </div>
+					        <div class="form-group tm-d-flex">
+					          <button type="submit" id="buttonSubmit" class="tm-btn tm-btn-success tm-btn-right">Send message</button>
+					        </div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="tm-address-box" id="address">
+							<h4 class="tm-info-title tm-text-success">Our Address</h4>
+							<address>
+								Kralja Petra (section from Kosančićev Venac to Uzun Mirkova) Street in Belgrade
+							</address>
+							<a href="tel:080-090-0110" class="tm-contact-link">
+								<i class="fas fa-phone tm-contact-icon"></i>080-090-0110
+							</a>
+							<a href="mailto:info@company.co" class="tm-contact-link">
+								<i class="fas fa-envelope tm-contact-icon"></i>vinylrecords@company.co
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="tm-footer text-center">
+			<p>Marija Vučičević 18/19 &copy; 
+				| <a href="https://www.ict.edu.rs/" target="blank">Visoka ICT Škola</a></p>
+				<!-- iconice -->
+				<p id="socialIcons">
+				</p> 
+				<!-- ikonice kraj -->
+		</footer>
+	</div>
+	<!-- script fajlovi -->
+	<script src="js/jquery.min.js" type="text/javascript"></script>
+	<script src="js/parallax.min.js" type="text/javascript"></script>
+	<script src="js/main.js" type="text/javascript"></script>
+</body>
+</html>

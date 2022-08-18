@@ -1,0 +1,18 @@
+[
+    {
+        "id":1,
+        "name":"Album name-A-Z"
+    },
+    {
+        "id":2,
+        "name":"Album name-Z-A"
+    },
+    {
+        "id":3,
+        "name":"Low to High price"
+    },
+    {
+        "id":4,
+        "name":"High to Low price"
+    }
+]
